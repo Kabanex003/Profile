@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Patamaporn</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #232526 0%, #414345 100%);
+      min-height: 100vh;
+    }
+    .about-card {
+      max-width: 500px;
+      margin: 60px auto;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.45), 0 1.5px 8px #7c9fe4;
+      border-radius: 24px;
+      background: linear-gradient(135deg, #232526 60%, #2c5364 100%);
+      padding: 2.5rem 2.5rem 2rem 2.5rem;
+      text-align: center;
+      border: 2px solid #7c9fe4;
+    }
+    .about-img-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1.2rem;
+    }
+    .about-img-border {
+      background: linear-gradient(135deg, #7c9fe4 0%, #4e1057 100%);
+      padding: 6px;
+      border-radius: 50%;
+      box-shadow: 0 0 24px 4px #7c9fe4, 0 0 0 8px #232526;
+      transition: transform 0.3s, box-shadow 0.3s;
+      display: inline-block;
+      border: 2px solid #fff2;
+    }
+    .about-img-border:hover {
+      transform: scale(1.09) rotate(-4deg);
+      box-shadow: 0 0 32px 8px #4e1057, 0 0 0 10px #2c5364;
+    }
+    .about-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #232526;
+      box-shadow: 0 2px 16px #7c9fe4cc, 0 0 0 2px #fff2;
+      display: block;
+      filter: grayscale(10%) contrast(1.1);
+    }
+    .about-title {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: #7c9fe4;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 2px 8px #232526cc;
+    }
+    .about-desc {
+      font-size: 1.1rem;
+      color: #b0b8c1;
+      margin-bottom: 1.5rem;
+    }
+    .about-list {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 1.5rem;
+    }
+    .about-list li {
+      margin-bottom: 0.7rem;
+      font-size: 1rem;
+      color: #7c9fe4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      text-shadow: 0 1px 4px #232526cc;
+    }
+    .btn-primary {
+      background: linear-gradient(90deg, #7c9fe4 0%, #4e1057 100%);
+      border: none;
+      color: #fff;
+      font-weight: 500;
+      padding: 0.75rem 2rem;
+      border-radius: 30px;
+      box-shadow: 0 2px 8px #7c9fe4cc;
+      transition: background 0.2s, box-shadow 0.2s;
+    }
+    .btn-primary:hover {
+      background: linear-gradient(90deg, #4e1057 0%, #7c9fe4 100%);
+      color: #fff;
+      box-shadow: 0 4px 16px #4e1057cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="about-card">
+    <div class="about-img-wrapper">
+      <span class="about-img-border">
+        <img src="https://scontent-bkk1-1.xx.fbcdn.net/v/t39.30808-6/486823493_1900988557383944_3399456056335599006_n.jpg?_nc_cat=110&cb=99be929b-ca288af0&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=VpPt7HKCuNQQ7kNvwHZ_Q3M&_nc_oc=AdnHT3GgauXu7kvhbycWOuXBVANGfnfiPr6gHF9JVhbDXk7QKEJrzuvuzFCf7ctiqp8&_nc_zt=23&_nc_ht=scontent-bkk1-1.xx&_nc_gid=qcHlp5VpJ35y9tdAs0biwg&oh=00_AfRrXFBtC04cWkYL9I7YDOivVnMo1QNqKYaAGyCMhxOWUw&oe=68867CC8" alt="Profile" class="about-img">
+      </span>
+    </div>
+    <div class="about-title">นายฐิติพงศ์ อิงสันเทียะ</div>
+    <div class="about-desc">นักศึกษามหาวิทยาลัย ชอบชาเขียวและการออกแบบเว็บไซต์</div>
+    <ul class="about-list">
+      <li><i class="bi bi-mortarboard"></i> SSKRU </li>
+      <li><i class="bi bi-geo-alt"></i> ห้องสาขาชั้น3 </li>
+      <li><i class="bi bi-cup-hot"></i> ชอบดื่มชา </li>
+      <li><i class="bi bi-laptop"></i> สนใจการพัฒนาเว็บและเทคโนโลยี</li>
+    </ul>
+    <a href="/" class="btn btn-primary"><i class="bi bi-house-door"></i> กลับหน้าแรก</a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
